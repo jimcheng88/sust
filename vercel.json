@@ -1,0 +1,13 @@
+{
+  "buildCommand": "next build",
+  "devCommand": "next dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "outputDirectory": ".next",
+  "regions": ["iad1"],
+  "env": {
+    "STRIPE_PUBLIC_KEY": "pk_test_placeholder",
+    "STRIPE_SECRET_KEY": "sk_test_placeholder",
+    "NEXT_PUBLIC_API_URL": "https://sustainability-marketplace.vercel.app"
+  }
+}
